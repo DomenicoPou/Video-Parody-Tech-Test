@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+.logo-container {
+    margin-left: 15px;
+    width: 225px;
+    float: left;
+    text-align: center;
+}
+
+.logo {
+    width: 84px;
+    position: relative;
+    top: -2px;
+}
+
+.top-right-container {
+    width: calc(100% - 265px);
+    float: left;
+}
+
+.search-container {
+    width: 70%;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 90%;
+    max-width: 560px;
+    height: 32px;
+    top: 12px;
+    position: relative;
+    padding: 2px 6px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    box-shadow: rgb(238, 238, 238) 0px 1px 2px 0px inset;
+    color: rgb(17, 17, 17);
+}
+
+.main-container {
+    margin-top: 60px;
+    margin-left: 240px;
+}
+
+.top-bar-container {
+    height: 56px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+    top: 0;
+    box-shadow: 1px 1px 4px #e2e2e2;
+}
+
+.video-container {
+    width: 210px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    color: #0a0a0a;
+}
+
+.video-source-overlay.active {
+    opacity: 0;
+    -webkit-transition: opacity .7s ease-in-out;
+    -moz-transition: opacity .7s ease-in-out;
+    -ms-transition: opacity .7s ease-in-out;
+    -o-transition: opacity .7s ease-in-out;
+}
+.video-source-overlay {
+    position: absolute;
+    width: calc(100% - 4px);
+    opacity: 1;
+}
+
+.video-title {
+    display: -webkit-box;
+    max-height: 3.2rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+
+.video-source-preview {
+    width: 100%;
+}
+
+.video-uploader {
+    color: #606060;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    display: block;
+    font-weight: 400;
+    line-height: 1rem;
+    text-transform: none;
+
+}
+
+.video-container {
+    padding-right: 4px;
+}
+
+.video-date {
+    color: #606060;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-transform: none;
+
+}
+
+.search-button {
+    height: 32px;
+    width: 55px;
+    border: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    border-radius: 0 2px 2px 0;
+    top: 11px;
+    position: relative;
+}
+
+.search-icon {
+    width: 15px;
+}
+
+
+.watch-video-container {
+    width: 100%;
+    height: 540px;
+    background: black;
+}
+
+.watch-header {
+    display: block;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 1px solid #0000001a;
+}
+
+.watch-upload {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.video-list-content-container {
+    padding: 0 20px;
+}
+
+.watch-video {
+    width: 100%;
+    height: 100%;
+}
+
+.watch-date {
+    color: #11111199;
+}
+
+.watch-description {
+    margin-top: 10px;
+}
+
+.watch-description-container {
+    padding: 20px 0px;
+    border-bottom: 1px solid #0000001a;
+}
+
+.video-header-container {
+    padding: 40px 0;
+}
+
+.watch-comment-count {
+    padding: 20px 0;
+    display: block;
+    font-weight: 600;
+}
+
+.video-header-container span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+
+.comment-container {
+    padding: 7px 0;
+}
+
+.comment-header {
+    display: block;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.comment-text {
+    display: block;
+    font-size: 14px;
+}
+
+.comment-date {
+    display: block;
+    color: #606060;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        margin-left: unset;
+    }
+}
